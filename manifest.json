@@ -1,0 +1,16 @@
+{
+    "name": "No Commit No Gain",
+    "description": "No Commit No Gain",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "src/popup/popup.html",
+        "default_icon": "images/ncng-icon.png"
+    },
+    "icons": {
+        "16": "images/ncng-icon.png",
+        "32": "images/ncng-icon.png",
+        "48": "images/ncng-icon.png",
+        "128": "images/ncng-icon.png"
+    }
+}

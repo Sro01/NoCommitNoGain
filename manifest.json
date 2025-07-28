@@ -4,7 +4,7 @@
     "version": "0.0.1",
     "manifest_version": 3,
     "action": {
-        "default_popup": "src/popup/popup.html",
+        "default_popup": "index.html",
         "default_icon": "images/ncng-icon.png"
     },
     "icons": {
@@ -12,5 +12,7 @@
         "32": "images/ncng-icon.png",
         "48": "images/ncng-icon.png",
         "128": "images/ncng-icon.png"
-    }
+    },
+    "permissions": ["activeTab"],
+    "host_permissions": ["<all_urls>"]
 }
